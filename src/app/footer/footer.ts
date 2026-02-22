@@ -1,0 +1,22 @@
+// footer/footer.ts
+import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
+
+@Component({
+  selector: 'app-footer',
+  standalone: true,
+  imports: [RouterModule],
+  template: `
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+      <h5>Nuestras Cheesecakes</h5>
+
+      <a routerLink="/" class="btn btn-outline-light m-1">Inicio</a>
+      <a routerLink="/clasica" class="btn btn-outline-light m-1">Clásica</a>
+      <a routerLink="/lotus" class="btn btn-outline-light m-1">Lotus</a>
+      <a routerLink="/pistacho" class="btn btn-outline-light m-1">Pistacho</a>
+
+      <p class="mt-3 mb-0">© 2026 Cheesecake Lovers</p>
+    </footer>
+  `
+})
+export class Footer {}

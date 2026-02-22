@@ -1,0 +1,19 @@
+/* Estilo para hacer las cards más pequeñas */
+.card {
+  max-width: 600px; /* Ajusta el ancho máximo */
+  margin: 0 auto;   /* Centra horizontalmente si el contenedor lo permite */
+  padding: 10px;    /* Reduce el padding interno */
+}
+
+.card img {
+  max-height: 470px; /* Ajusta la altura de la imagen */
+  object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+
+.card-body {
+  padding: 10px;    /* Reduce padding del contenido */
+}
+
+.row {
+  justify-content: center; /* Centra las cards dentro de la fila */
+}
