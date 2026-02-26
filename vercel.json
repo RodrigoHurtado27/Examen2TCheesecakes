@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "dist/Pasteleria/**",
+      "src": "dist/Pasteleria/browser/**",
       "use": "@vercel/static"
     }
   ],
